@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }  
 
-main, footer {
+/* main {
     margin: 25px 150px;
-}
+} */
 
 header {
     background-color: rgb(77, 150, 179);
@@ -22,8 +22,23 @@ header {
 }
 
 h1 {
-    margin-bottom: 0px;
+    margin-top: 10px;
 }
+
+h1, #info, #date {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#info, #date {
+    font-style: italic;
+}
+
+.container {
+    width: 1500px;
+    margin: 20px 150px;
+}
+
 
 #info {
     color: rgba(41, 38, 38, 0.507);
@@ -75,6 +90,12 @@ th {
 
 
 /* footer */
+
+
+h3 {
+    color:rgba(41, 38, 38, 0.507);
+}
+
 .img_footer {
     width: 250px;
     height: 250px;
@@ -91,16 +112,13 @@ th {
     margin-bottom: 50px;
 }
 
-h3 {
-    color:rgba(41, 38, 38, 0.507)
-}
 
 h4 {
     color: white;
     padding: 15px;
 }
 
-ul, table, footer {
+ul, table{
     margin-top: 30px;
 }
 
