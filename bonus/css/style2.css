@@ -8,7 +8,7 @@ body {
     background-color: rgb(221, 237, 238);
 }
 
-main, footer {
+main, footer, #logo {
     margin: 25px 150px;
 }
 
