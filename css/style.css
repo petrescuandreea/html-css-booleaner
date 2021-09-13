@@ -40,13 +40,16 @@ h1 {
     background-color: yellow;
 }
 
+/* table */
 table {
     width: 100%;
     border-collapse: collapse;
   }
 
 th {
-background-color: teal;
+    background-color: teal;
+    color: white;
+    text-align: left;
 }
 
 .blu {
@@ -57,6 +60,8 @@ background-color: teal;
     width:50%;
 }
 
+
+/* footer */
 .img_footer {
     width: 250px;
     height: 250px;
