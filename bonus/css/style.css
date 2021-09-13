@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }  
 
-main, footer {
+main, footer, #logo {
     margin: 25px 150px;
 }
 
