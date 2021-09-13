@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }  
 
-/* main {
+body {
+    background-color: rgb(221, 237, 238);
+}
+
+main, footer {
     margin: 25px 150px;
-} */
+}
 
 header {
     background-color: rgb(77, 150, 179);
@@ -22,23 +26,17 @@ header {
 }
 
 h1 {
-    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 45px;
 }
 
 h1, #info, #date {
-    margin-bottom: 0px;
     text-align: center;
 }
 
 #info, #date {
     font-style: italic;
 }
-
-.container {
-    width: 1500px;
-    margin: 20px 150px;
-}
-
 
 #info {
     color: rgba(41, 38, 38, 0.507);
@@ -56,6 +54,10 @@ h1, #info, #date {
     font-size: 10px;
 }
 
+#tim2 {
+    margin-left: 35px;
+}
+
 .photo_description {
     font-size: 15px;
 }
@@ -71,13 +73,18 @@ ul{
 /* table */
 table {
     width: 100%;
-    border-collapse: collapse;
+    border: 1px solid teal;
+    border-collapse:separate;
   }
 
 th {
     background-color: teal;
     color: white;
     text-align: left;
+}
+
+.white {
+    background-color: white;
 }
 
 .blu {
@@ -90,10 +97,10 @@ th {
 
 
 /* footer */
-
-
 h3 {
     color:rgba(41, 38, 38, 0.507);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .img_footer {
@@ -104,28 +111,45 @@ h3 {
 
 #img1 {
     background-image: url("../img/monitor.jpg");
-    margin-bottom: 10px;
 }
 
 #img2 {
     background-image: url('../img/graph.jpg');
-    margin-bottom: 50px;
+
 }
 
+#img1, #img2 {
+    margin-top: 30px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(125, 191, 196);
+}
+
+#img1{
+    position: absolute;
+    left: 250px;
+}
+
+#img2 {
+    position: absolute;
+    right:250px;
+    top: 0;
+}
 
 h4 {
     color: white;
     padding: 15px;
 }
 
-ul, table{
+/* general */
+ul, table, footer{
     margin-top: 30px;
 }
 
 p {
     margin-top: 20px;
-}
-
-h3{
-    margin-bottom: 10px;
 }
