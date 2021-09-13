@@ -9,6 +9,10 @@ header {
     height: 150px;
 }
 
+.header_background{
+    background-image: url("img/pattern.png");
+}
+
 #logo {
     width:300px;
     margin-top: 75px;
